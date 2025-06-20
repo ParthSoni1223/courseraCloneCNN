@@ -19,7 +19,7 @@ st.set_page_config(
 # Replace with your details:
 
 YOUR_NAME = "Ranjana Jha"
-YOUR_COMPLETION_DATE = "June 14, 2025"
+YOUR_COMPLETION_DATE_SPEC = "June 14, 2025"
 YOUR_HOURS = "35 hours (approximately)"
 DEFAULT_CERTIFICATE_PATH = "ranjanaCNNCertificate.jpeg.png"
 DEEPLEARNING_LOGO_PATH = "deeplearnin.png"
@@ -722,7 +722,7 @@ st.markdown(f"""
         </div>
         <div class="completion-details">
             <div class="completion-text">Completed by {YOUR_NAME}</div>
-            <div class="completion-date">{YOUR_COMPLETION_DATE}</div>
+            <div class="completion-date">{YOUR_COMPLETION_DATE_SPEC}</div>
             <div class="completion-hours">{YOUR_HOURS}</div>
             <div class="verification-text">
                 {YOUR_NAME}'s account is verified. Coursera certifies their successful completion of <strong>Convolutional Neural Networks</strong>
@@ -827,10 +827,10 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("### 📋 Quick Info")
 st.sidebar.info(f"""
 **Student Name:** {YOUR_NAME}
-**Specialization:** Healthcare Organization Operations
-**University:** Rutgers University
+**Course:** Convolutional Neural Networks
+**Provider:** DeepLearning.AI
 **Completion Date:** {YOUR_COMPLETION_DATE_SPEC}
-**Total Courses:** 4
+**Duration:** {YOUR_HOURS}
 """)
 
 st.markdown("""
