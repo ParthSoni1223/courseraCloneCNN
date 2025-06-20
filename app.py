@@ -28,7 +28,7 @@ DEEPLEARNING_LOGO_PATH = "deeplearning.png"
 st.sidebar.title("🎓 Certificate Options")
 st.sidebar.markdown("Choose how to display your certificate:")
 
-c# Upload logic
+# Upload logic
 st.sidebar.title("🎓 Certificate Options")
 certificate_option = st.sidebar.radio(
     "Certificate Display Option",
