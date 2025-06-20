@@ -18,11 +18,11 @@ st.set_page_config(
 # ==========================================
 # Replace with your details:
 
-YOUR_NAME = "Vivek Kumar"
-YOUR_COMPLETION_DATE = "March 4, 2025"
+YOUR_NAME = "Ranjana Jha"
+YOUR_COMPLETION_DATE = "June 14, 2025"
 YOUR_HOURS = "35 hours (approximately)"
-DEFAULT_CERTIFICATE_PATH = "cnn_certificate.png"
-DEEPLEARNING_LOGO_PATH = "deeplearning_logo.png"
+DEFAULT_CERTIFICATE_PATH = "ranjanaCNNCertificate.jpeg.png"
+DEEPLEARNING_LOGO_PATH = "deeplearnin.png"
 
 # Certificate upload section
 st.sidebar.title("🎓 Certificate Options")
